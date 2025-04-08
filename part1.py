@@ -17,5 +17,12 @@ entry.pack(pady=5)
 button = tk.Button(root, text="Click me")
 button.pack(pady=5)
 
+#Radio buttons
+radio1 = tk.Radiobutton(root, text="Option 1", value=1)
+radio1.pack()
+
+radio2 = tk.Radiobutton(root, text="Option 2", value=2)
+radio2.pack()
+
 # run the app
 root.mainloop()
