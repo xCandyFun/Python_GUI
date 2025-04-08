@@ -9,6 +9,10 @@ root.geometry("300x350")
 label = tk.Label(root, text = "This is a label")
 label.pack(pady=5)
 
+# Entry box
+entry = tk.Entry()
+entry.pack(pady=5)
+
 
 # run the app
 root.mainloop()
