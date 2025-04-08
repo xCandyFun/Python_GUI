@@ -25,8 +25,18 @@ radio2 = tk.Radiobutton(root, text="Option 2", value=2)
 radio2.pack()
 
 #Check box
-checkBox = tk.Checkbutton(root, text="do you want candy?")
+checkBox = tk.Checkbutton(root, text="Do you want candy?")
 checkBox.pack(pady=5)
+
+#Dropdown menu
+options = ["Java", "Python", "C#"]
+dropdown_var = tk.StringVar(value=options[0])
+
+Dropdown_label = tk.Label(root, text="Choose favorite language")
+Dropdown_label.pack(pady=10)
+
+dropdown = tk.OptionMenu(root, dropdown_var, *options)
+dropdown.pack()
 
 # run the app
 root.mainloop()
