@@ -24,5 +24,9 @@ radio1.pack()
 radio2 = tk.Radiobutton(root, text="Option 2", value=2)
 radio2.pack()
 
+#Check box
+checkBox = tk.Checkbutton(root, text="do you want candy?")
+checkBox.pack(pady=5)
+
 # run the app
 root.mainloop()
