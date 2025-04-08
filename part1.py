@@ -13,6 +13,9 @@ label.pack(pady=5)
 entry = tk.Entry()
 entry.pack(pady=5)
 
+# Button
+button = tk.Button(root, text="Click me")
+button.pack(pady=5)
 
 # run the app
 root.mainloop()
